@@ -73,9 +73,9 @@
     }
 
     .loader::after {
-        @apply content-[""] m-[8px] rounded-full border-4 border-x-orange-2 border-y-transparent animate-[spin_2s_infinite_linear] ;
-        
+        @apply content-[""] m-[8px] rounded-full border-4 border-x-orange-2 border-y-transparent animate-[spin_2s_infinite_linear];
+        grid-area: 1/1;
     }
 
 
-}
+};
